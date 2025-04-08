@@ -39,7 +39,8 @@
         <h2 class="sobre-titulo">Sobre Mim</h2>
         <div class="sobre-caixa">
             <p class="sobre-paragrafo">
-                Sou um Desenvolvedor Front-End com experi&ecirc;ncia em desenvolvimento de sites e aplicativos web e demais linguagens de program&aacute;&ccedil;&atilde;o.
+                Sou um Desenvolvedor Front-End com experi&ecirc;ncia em desenvolvimento de sites e aplicativos web e
+                demais linguagens de program&aacute;&ccedil;&atilde;o.
             </p>
         </div>
     </section>
@@ -71,21 +72,20 @@
     </section>
 
     <script>
-        function enviarMensagem(event) {
-            event.preventDefault();
+     function enviarMensagem(event) {
+    event.preventDefault();
 
-            const nome = document.getElementById('nome').value;
-            const mensagem = document.getElementById('mensagem').value;
-            const telefone = '5516992755821'
+    const nome = document.getElementById('nome').value;
+    const mensagem = document.getElementById('mensagem').value;
+    const telefone = '5516992755821'
 
-            const texto = `Ol&aacute;?! me chamo ${nome}. ${mensagem}`
-            const msgFormatada = encodeURIComponent(texto)
+    const texto = `Oi Tudo bem? me chamo ${nome}. ${mensagem}`
+    const msgFormatada = escape(texto)
 
-            const url = `https://wa.me/${telefone}?text=${msgFormatada}`
-            console.log(url)
+    const url = `https://wa.me/${telefone}?text=${msgFormatada}`
 
-            window.open(url, '_blank')
-        }
+    window.open(url, '_blank')
+}
     </script>
 
 </body>
