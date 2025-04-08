@@ -71,21 +71,41 @@
         </form>
     </section>
 
+    <div class="redes-sociais">
+        <a href="https://instagram.com/matheusglanz" target="_blank"><img
+                src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+                target="_blank"></a>
+        <a href="https://discord.com/matheusglanz7684" target="_blank"><img
+                src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"
+                target="_blank"></a>
+        <a href="glanzmatheus@gmail.com"><img
+                src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
+                target="_blank"></a>
+        <a href="https://www.linkedin.com/in/matheus-fernandes-2b58372b2/" target="_blank"><img
+                src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                target="_blank"></a>
+
+    </div>
+
+    <div class="direitos-reservados">
+        <p>&copy; 2025 MatheusGlanz. Todos os direitos reservados.</p>
+    </div>
+
     <script>
-     function enviarMensagem(event) {
-    event.preventDefault();
+        function enviarMensagem(event) {
+            event.preventDefault();
 
-    const nome = document.getElementById('nome').value;
-    const mensagem = document.getElementById('mensagem').value;
-    const telefone = '5516992755821'
+            const nome = document.getElementById('nome').value;
+            const mensagem = document.getElementById('mensagem').value;
+            const telefone = '5516992755821'
 
-    const texto = `Oi Tudo bem? me chamo ${nome}. ${mensagem}`
-    const msgFormatada = escape(texto)
+            const texto = `Oi Tudo bem? me chamo ${nome}. ${mensagem}`
+            const msgFormatada = escape(texto)
 
-    const url = `https://wa.me/${telefone}?text=${msgFormatada}`
+            const url = `https://wa.me/${telefone}?text=${msgFormatada}`
 
-    window.open(url, '_blank')
-}
+            window.open(url, '_blank')
+        }
     </script>
 
 </body>
