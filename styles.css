@@ -257,6 +257,23 @@ h1 {
     box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
 }
 
+.redes-sociais {
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 4rem;
+}
+
+.direitos-reservados {
+    display: flex;
+    justify-content: center;
+    color: var(--claro);
+    padding: 2rem;
+
+}
+
 .particulas {
     position: fixed;
     top: 0;
@@ -265,19 +282,21 @@ h1 {
     height: 100%;
     z-index: -1;
     opacity: 0.5;
-    background: 
-    radial-gradient(circule at 10% 20%, var(--primaria) 0%, transparent 20%), 
-    radial-gradient(circule at 90% 80%, var(--secundaria) 0%, transparent 20%), var(--maisEscuro);
+    background:
+        radial-gradient(circule at 10% 20%, var(--primaria) 0%, transparent 20%),
+        radial-gradient(circule at 90% 80%, var(--secundaria) 0%, transparent 20%), var(--maisEscuro);
 
 }
 
 @keyframes flutuar {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
 
     50% {
         transform: translateY(-20%);
     }
-   
+
 }
