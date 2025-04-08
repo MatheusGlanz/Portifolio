@@ -24,6 +24,34 @@ body {
     color: var(--claro);
 }
 
+@media (max-width: 768px) {
+    .navegacao {
+        padding: 1rem;
+    }
+
+    .cabecalho {
+        min-height: 50vh;
+    }
+}
+
+.cabecalho {
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+@media (max-width: 480px) {
+    .cabecalho {
+        min-height: 30vh;
+    }
+}
+
+.projetos-caixa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
 .navegacao {
     position: fixed;
     top: 0;
@@ -273,6 +301,22 @@ h1 {
     padding: 2rem;
 
 }
+
+/* Adicione media queries para ajustar o layout em dispositivos móveis */
+@media (max-width: 768px) {
+    .direitos-reservados {
+      padding: 1rem;
+      font-size: 1.2rem;
+    }
+    .redes-sociais {
+      padding: 1rem;
+      flex-direction: column;
+      align-items: center;
+    }
+    .redes-sociais a {
+      margin-bottom: 1rem;
+    }
+  }
 
 .particulas {
     position: fixed;
