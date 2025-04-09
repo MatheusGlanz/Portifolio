@@ -119,6 +119,10 @@ h1 {
     margin: 20px;
 }
 
+.icons {
+    display: flex;
+    padding: 4rem;
+}
 .cabecalho-sub-titulo {
     font-size: 1.5rem;
     color: var(--claro);
