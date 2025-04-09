@@ -123,6 +123,8 @@ h1 {
     display: flex;
     padding: 4rem;
 }
+
+
 .cabecalho-sub-titulo {
     font-size: 1.5rem;
     color: var(--claro);
