@@ -32,6 +32,11 @@ body {
     .cabecalho {
         min-height: 50vh;
     }
+
+    .icons {
+        display: flex;
+        padding: 4rem;
+    }
 }
 
 .cabecalho {
@@ -42,6 +47,11 @@ body {
 @media (max-width: 480px) {
     .cabecalho {
         min-height: 30vh;
+    }
+
+    .icons {
+        display: flex;
+        padding: 4rem;
     }
 }
 
@@ -117,30 +127,6 @@ h1 {
     font-weight: bold;
     ;
     margin: 20px;
-}
-
-@media (max-width: 768px) {
-    .icons {
-        padding: 2rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .icons>* {
-        margin: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .icons {
-        padding: 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .icons>* {
-        margin: 0.5rem;
-    }
 }
 
 .icons {
