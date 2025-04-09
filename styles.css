@@ -333,6 +333,11 @@ h1 {
     .redes-sociais a {
         margin-bottom: 1rem;
     }
+    
+    .icons {
+        display: flex;
+        padding: 4rem;
+   
 }
 
 .particulas {
